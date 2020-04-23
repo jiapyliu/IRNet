@@ -359,3 +359,8 @@ def init_log_checkpoint_path(args):
     if os.path.exists(save_path) is False:
         os.makedirs(save_path)
     return save_path
+
+if __name__ == "__main__":
+    load_dataset('./data')
+
+    pass
